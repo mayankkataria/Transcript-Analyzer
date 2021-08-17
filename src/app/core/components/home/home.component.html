@@ -1,2 +1,13 @@
-<!-- <app-gc-header></app-gc-header> -->
-Hello
+<div class="real-section">
+    <!-- <ion-item>
+        <ion-label>Awesome Label</ion-label>
+    </ion-item> -->
+    <p *ngFor="let sentence of RealSentences">
+        {{ sentence }}
+    </p>
+</div>
+<div class="exp-section">
+    <p *ngFor="let sentence of EXPECTED_SCRIPT">
+        {{ sentence }}
+    </p>
+</div>

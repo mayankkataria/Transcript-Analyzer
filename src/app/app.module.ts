@@ -7,6 +7,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import AppComponent from './app.component';
 import { ROUTES } from './app-routing.module';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -16,8 +17,8 @@ import { ROUTES } from './app-routing.module';
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(ROUTES),
-
-    FlexLayoutModule
+    FlexLayoutModule,
+    IonicModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
