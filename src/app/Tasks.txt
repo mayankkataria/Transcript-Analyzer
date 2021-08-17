@@ -1,0 +1,2 @@
+1. Generate home component
+2. Show header and subheader on layout
