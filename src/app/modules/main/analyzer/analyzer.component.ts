@@ -23,6 +23,7 @@ export default class AnalyzerComponent implements OnInit, AfterViewInit {
     private _tplService: TemplateService,
     private _router: Router
   ) {
+    console.log('analyzer compo');
   }
 
   public ngAfterViewInit(): void {

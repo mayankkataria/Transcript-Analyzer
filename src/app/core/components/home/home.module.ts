@@ -8,7 +8,7 @@ import HeaderModule from '../header/header.module';
 import { HomeComponent } from './home.component';
 
 @NgModule({
-  imports: [CoreModule],
+  imports: [],
 })
 export default class HomeModule {
 }

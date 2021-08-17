@@ -4,4 +4,8 @@ import { Component } from '@angular/core';
     selector: 'app-main',
     templateUrl: './main.component.html'
 })
-export default class MainComponent {}
+export default class MainComponent {
+    constructor() {
+        console.log('main compo');
+    }
+}
